@@ -504,6 +504,13 @@ a {
   opacity: 0.55;
 }
 
+.article-list li .article-list-archived {
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
 /* ============================================
    ARTICLE PAGES — TEXT & IMAGE LAYOUT SYSTEM
    ============================================
