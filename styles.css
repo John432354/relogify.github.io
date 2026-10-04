@@ -355,6 +355,20 @@ a {
   color: #ffd866;
 }
 
+.text-yellow-dark,
+.article-text .text-yellow-dark {
+  font-family: 'Orbitron', Arial, sans-serif;
+  font-weight: 700;
+  color: #d6a527;
+}
+
+.text-blue,
+.article-text .text-blue {
+  font-family: 'Orbitron', Arial, sans-serif;
+  font-weight: 700;
+  color: rgb(133, 167, 235);
+}
+
 .text-green,
 .article-text .text-green,
 .article-text span.text-green {
