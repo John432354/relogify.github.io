@@ -552,6 +552,51 @@ a {
   margin-bottom: 0;
 }
 
+.article-text p.no-indent {
+  text-indent: 0 !important;
+}
+
+.article-bullets {
+  margin: 0 0 16px 28px;
+  padding-left: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 2;
+}
+
+.article-bullets li {
+  padding-left: 4px;
+  margin-bottom: 8px;
+}
+
+.article-bullets li:last-child {
+  margin-bottom: 0;
+}
+
+.article-figure {
+  width: 100%;
+  margin: 26px 0 30px;
+}
+
+.article-figure .article-img-box.big {
+  margin: 0 auto 10px;
+  min-height: 220px;
+  background-color: #fff;
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.article-figure figcaption {
+  max-width: 720px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 0.75rem;
+  font-style: italic;
+  line-height: 1.65;
+  text-align: center;
+}
+
 /* Extra paragraph indent for alternating paragraphs to make text less condensed */
 .article-text p.indent,
 .article-text p.indented-p,
